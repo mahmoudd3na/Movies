@@ -1,34 +1,82 @@
 
 
-*{
-/* padding :0; 
-margin :0;  */
-/* background-color:  */
+
+* {
+
+    box-sizing: border-box;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+
+form {
+background-color:rgba(255, 248, 220, 0.078);
+position: relative;
+width: 60%;
+top: 150px;
+left: 150px;
 
 
 }
 
-legend{
 
-    margin: auto;
-
-}
-
- .email{
-    margin-left : 20px
-
-}
-form { 
-    width: 300px; 
-    margin-left: 100px; 
-}
-
-login page{
-
-color:blue
+.input-container {
+    display: flex;
+    width: 100%;
+   
+    margin-bottom: 15px;
+  }
 
 
-} 
+
+.icon {
+    padding: 10px;
+    color: rgb(10, 115, 62);
+    min-width: 50px;
+    text-align: center;
+  }
+    
 
 
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+  }
+  
+  .input-field:focus {
+    border: 2px solid rgb(54, 18, 185);
+  }
+
+
+
+  .s1{
+
+
+    margin: 50px;
+ 
+   }
+  
+
+.btn {
+    background-color: rgb(23, 12, 169);
+    font-size: 15px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 20px;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
 
