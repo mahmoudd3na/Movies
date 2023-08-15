@@ -47,25 +47,73 @@
 
 
         <div class="main">
-      
-                <ul class="flex-container guide-menu">
-                    <li class="normal-heading"> <a>Watch Guide</a></li>
-                    <li class="normal-heading"> <a>Watch Guide</a></li>
-                    <li class="normal-heading"> <a>Watch Guide</a></li>
-                    <li class="normal-heading"> <a>Watch Guide</a></li>   
-                </ul>
-                <h1 class="normal-heading">Most Popular Movies</h1>
-                <h3 class="normal-heading">As determined by our Users</h3>
+      <!-- guide buttons and the main header -->
+      <div class="guide">
+        <ul class="flex-container guide-menu">
+            <li class="normal-heading"> <a>Watch Guide</a></li>
+            <li class="normal-heading"> <a>Watch Guide</a></li>
+            <li class="normal-heading"> <a>Watch Guide</a></li>
+            <li class="normal-heading"> <a>Watch Guide</a></li>   
+        </ul>
+        <h1 class="normal-heading">Most Popular Movies</h1>
+        <h3 class="normal-heading-2">As determined by our Users</h3>
+      </div>
+              
             
+                <!-- now the movies page -->
                 <div class="movies">
+                    <!-- first the sort bar  -->
+                    <div class="flex-container sort-bar">
+                        <p class="normal-heading-2">100 items</p>
+                        <div class="flex-container sort">
+                            <img src="./images/sort.svg">
+                            <p class="normal-heading-2">Sort by</p>
+                            <select>
+                                <option value="rating">Rating</option>
+                                <option value="date">Release Date</option>
+                                <option value="genre">Genre</option>
+                              </select>
+                            <div class="flex-container sort-grid">
+                                <img src="./images/list.svg"> 
+                                <img src="./images/grid.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- now the moives -->
+                <div class="movies-list"> </div>
 
                 </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer flex-container">
+            <ul class="flex-container icons">
+                <li><a><img src="./images/tabler-icon-brand-tiktok.svg"></a></li>
+                <li><a><img src="./images/tabler-icon-brand-youtube.svg"></a></li>
+                <li><a><img src="./images/tabler-icon-brand-facebook.svg"></a></li>
+                <li><a><img src="./images/tabler-icon-brand-instagram.svg"></a></li>
+            </ul>
+            <ul class="flex-container icons normal-heading">
+                <li><a>Get the IMDB App</a></li>
+                <li><a>Help</a></li>
+                <li><a>Site Index</a></li>
+                <li><a>IMDBPro</a></li>
+                <li><a>Box Office Mojo</a></li>
+                <li><a>IMDB Developer</a></li>
+            </ul>
+            <ul class="flex-container icons normal-heading">
+                <li><a>Press Room</a></li>
+                <li><a>Advertising</a></li>
+                <li><a>Jobs</a></li>
+                <li><a>Conditions of Use</a></li>
+                <li><a>Privacy Policy</a></li>
+                <li><a>Your Ads privacy Choices</a></li>
+            </ul>
+
+        </div>
 
 
     </div>
-
+    <script src="./index.js"></script>
     
 </body>
 </html>
