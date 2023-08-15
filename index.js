@@ -47,7 +47,8 @@ movies.push(avengers);
 
 
 
-
+let itemsCount = document.querySelector(".sort-bar p"); 
+itemsCount.textContent=`${movies.length} items`; 
 
 movies.forEach(movie =>{
     let movieDiv = document.createElement("div"); 
